@@ -36,6 +36,20 @@
         <activity
             android:name=".module.imageprocess.normal.NormalProcActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".module.activityfinisheffect.activity.FinishEffectActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".module.activityfinisheffect.activity.SlideFinsihActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/translucent_activity_style" />
+
+        <activity
+            android:name=".module.activityfinisheffect.activity.RotateFinishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/translucent_activity_style" />
     </application>
 
 </manifest>

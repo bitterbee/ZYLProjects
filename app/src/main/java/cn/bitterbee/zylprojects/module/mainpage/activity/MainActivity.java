@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 
 import cn.bitterbee.zylprojects.R;
 import cn.bitterbee.zylprojects.common.util.ResUtil;
+import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.FinishEffectActivity;
 import cn.bitterbee.zylprojects.module.imageprocess.ImageProcessActivity;
 import cn.bitterbee.zylprojects.module.mainpage.viewholder.DividerItemDecoration;
 import cn.bitterbee.zylprojects.module.mainpage.viewholder.ItemModel;
@@ -18,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView mRvItems;
 
     ItemModel[] sItemModels = new ItemModel[] {
-            new ItemModel(ResUtil.getString(R.string.item_image_process), ImageProcessActivity.class)
+            new ItemModel(ResUtil.getString(R.string.item_image_process), ImageProcessActivity.class),
+            new ItemModel(ResUtil.getString(R.string.item_activity_transition_effect), FinishEffectActivity.class)
     };
 
     @Override
