@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ZYLProjects</string>
+
+    <string name="crash_warning">很抱歉，程序出现异常，即将退出</string>
+
+    <string name="item_image_process">图片高性能计算</string>
+    <string name="item_activity_transition_effect">Activity切换效果</string>
+
+    <string name="image_process_normal_java">常规的图片模糊处理</string>
+    <string name="image_process_gpu_accelerate">GPU加速的图片处理</string>
+
+
+</resources>
