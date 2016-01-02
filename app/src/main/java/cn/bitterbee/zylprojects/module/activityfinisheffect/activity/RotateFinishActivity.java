@@ -6,6 +6,9 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.ViewGroup;
+
+import java.util.WeakHashMap;
 
 import cn.bitterbee.zylprojects.R;
 import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.CubeRotateFinishLayout;
@@ -17,8 +20,8 @@ import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayou
 public class RotateFinishActivity extends AppCompatActivity
         implements OnSlidingFinishListener {
 
-    private static final String BACKGROUND_BITMAP_KEY = "BACKGROUND_BITMAP_KEY";
-    private Bitmap mBgBitmap;
+    private static final String PRE_ACTIVITY_HASH_KEY = "PRE_ACTIVITY_HASH_KEY";
+    private int mPrevContextCode = 0;
 
     /**
      * 用于监听滑动的view
@@ -26,19 +29,21 @@ public class RotateFinishActivity extends AppCompatActivity
     protected CubeRotateFinishLayout mContentView;
 
     public static void start(Activity activity) {
-        View decorView = activity.getWindow().getDecorView();
-        decorView.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_LOW);
-        decorView.setDrawingCacheEnabled(true);
-        decorView.buildDrawingCache();
+        ViewGroup decorView = (ViewGroup) activity.getWindow().getDecorView();
+        View contentView = decorView.findViewById(android.R.id.content);
+        contentView.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_LOW);
+        contentView.setDrawingCacheEnabled(true);
+        contentView.buildDrawingCache();
 
-        Bitmap bitmap = decorView.getDrawingCache();
-        Bitmap bgBitmap = bitmap.createScaledBitmap(bitmap, bitmap.getWidth() / 10, bitmap.getHeight() / 10, true);
-        bitmap.recycle();
-        decorView.destroyDrawingCache();
-        decorView.setDrawingCacheEnabled(false);
+        Bitmap bitmap = contentView.getDrawingCache();
+        Bitmap bgBitmap = bitmap.createScaledBitmap(bitmap, bitmap.getWidth(), bitmap.getHeight(), true);
+        sActivity2BgBitmap.put(activity, bgBitmap);
+
+        contentView.destroyDrawingCache();
+        contentView.setDrawingCacheEnabled(false);
 
         Intent intent = new Intent(activity, RotateFinishActivity.class);
-        intent.putExtra(BACKGROUND_BITMAP_KEY, bgBitmap);
+        intent.putExtra(PRE_ACTIVITY_HASH_KEY, activity.hashCode());
         activity.startActivity(intent);
     }
 
@@ -48,7 +53,7 @@ public class RotateFinishActivity extends AppCompatActivity
         setContentView(R.layout.finish_effect_activity_rotate);
         Intent intent = getIntent();
         if (intent != null) {
-            mBgBitmap = intent.getParcelableExtra(BACKGROUND_BITMAP_KEY);
+            mPrevContextCode = intent.getIntExtra(PRE_ACTIVITY_HASH_KEY, 0);
         }
 
         initContentView();
@@ -59,7 +64,11 @@ public class RotateFinishActivity extends AppCompatActivity
     private void initContentView() {
         mContentView = (CubeRotateFinishLayout) findViewById(R.id.content_view);
         mContentView.setOnSlidingFinishListener(this);
-        mContentView.setLeftBitmap(mBgBitmap);
+
+        Bitmap bgBitmap = getPrevBitmap(mPrevContextCode);
+        if (bgBitmap != null) {
+            mContentView.setLeftBitmap(bgBitmap);
+        }
 
         View touchView = findViewById(R.id.touchview);
         mContentView.setTouchView(touchView);
@@ -70,6 +79,7 @@ public class RotateFinishActivity extends AppCompatActivity
         getWindow().getDecorView().setAlpha(0);
         finish();
         overridePendingTransition(R.anim.anim_fade_in, R.anim.anim_fade_out);
+        removePrevActivityCache(mPrevContextCode);
     }
 
     public void setSlidingFinishEnabled(boolean isSlidingEnabled) {
@@ -80,5 +90,37 @@ public class RotateFinishActivity extends AppCompatActivity
 
     public boolean isSlidingFinishEnabled() {
         return mContentView != null && mContentView.isSlidingEnabled();
+    }
+
+    private static WeakHashMap<Activity, Bitmap> sActivity2BgBitmap = new WeakHashMap<>();
+
+    private static Activity getPrevAcrtivity(int preContextCode) {
+        for (WeakHashMap.Entry<Activity, Bitmap> entry : sActivity2BgBitmap.entrySet()) {
+            Activity activity = entry.getKey();
+            if (activity != null && preContextCode == activity.hashCode()) {
+                return activity;
+            }
+        }
+        return null;
+    }
+
+    private static synchronized Bitmap getPrevBitmap(int preContextCode) {
+        Activity activity = getPrevAcrtivity(preContextCode);
+        return (activity != null) ? sActivity2BgBitmap.get(activity) : null;
+    }
+
+    private static synchronized boolean removePrevActivityCache(int preContextCode) {
+        Activity activity = getPrevAcrtivity(preContextCode);
+        if (activity != null) {
+            Bitmap bitmap = sActivity2BgBitmap.remove(activity);
+            if (bitmap != null) {
+                bitmap.recycle();
+                return true;
+            }
+
+            return false;
+        }
+
+        return false;
     }
 }

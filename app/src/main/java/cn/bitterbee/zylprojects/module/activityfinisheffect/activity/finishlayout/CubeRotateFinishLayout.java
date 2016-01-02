@@ -120,8 +120,8 @@ public class CubeRotateFinishLayout extends RelativeLayout implements
 
     public void setLeftBitmap(Bitmap bitmap) {
         if (mLeftView != null && bitmap != null) {
-            mLeftView.setScaleType(ImageView.ScaleType.FIT_XY);
             mLeftView.setImageDrawable(new BitmapDrawable(bitmap));
+            //mLeftView.setScaleType(ImageView.ScaleType.FIT_XY);
         }
     }
 
