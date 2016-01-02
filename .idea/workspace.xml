@@ -16,7 +16,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_rotate.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_rotate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ZYLProjects.iws" />
@@ -113,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateFinishActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RotateFinishActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6296296">
-              <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.88396627">
+              <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,16 +124,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CubeRotateFinishLayout.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CubeRotateFinishLayout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3164557">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.3703704">
+              <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
               <folding>
-                <element signature="e#1971#1972#0" expanded="true" />
-                <element signature="e#2010#2011#0" expanded="true" />
-                <element signature="e#4567#4846#0" expanded="true" />
-                <element signature="e#4845#4846#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1913#1914#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
+                <element signature="e#4445#4446#0" expanded="true" />
+                <element signature="e#4495#4496#0" expanded="true" />
+                <element signature="e#4645#4924#0" expanded="true" />
+                <element signature="e#4923#4924#0" expanded="true" />
+                <element signature="e#5620#5621#0" expanded="true" />
+                <element signature="e#5670#5671#0" expanded="true" />
+                <element signature="e#9753#9754#0" expanded="true" />
+                <element signature="e#9792#9793#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1756,9 +1762,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/image_process_activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/SlideFinsihActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_rotate.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java" />
       </list>
     </option>
   </component>
@@ -2335,13 +2341,19 @@
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java</url>
+          <line>185</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2484,6 +2496,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2671,25 +2684,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6296296">
-          <caret line="47" column="49" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+        <state vertical-scroll-proportion="-6.3703704">
+          <caret line="156" column="31" selection-start-line="156" selection-start-column="31" selection-end-line="156" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#4445#4446#0" expanded="true" />
+            <element signature="e#4495#4496#0" expanded="true" />
+            <element signature="e#4645#4924#0" expanded="true" />
+            <element signature="e#4923#4924#0" expanded="true" />
+            <element signature="e#5620#5621#0" expanded="true" />
+            <element signature="e#5670#5671#0" expanded="true" />
+            <element signature="e#9753#9754#0" expanded="true" />
+            <element signature="e#9792#9793#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3164557">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.88396627">
+          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
           <folding>
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#4567#4846#0" expanded="true" />
-            <element signature="e#4845#4846#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -19,6 +19,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 
+import cn.bitterbee.zylprojects.R;
 import cn.bitterbee.zylprojects.application.AppProfile;
 import cn.bitterbee.zylprojects.common.util.ScreenUtil;
 
@@ -74,10 +75,6 @@ public class CubeRotateFinishLayout extends RelativeLayout implements
 
     private View mRightView;
     private Matrix mRightViewMatrix;
-
-    private Matrix mMatrix = new Matrix();
-
-    private boolean mIsShowCubePrevView = true;
 
     public CubeRotateFinishLayout(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
@@ -157,12 +154,15 @@ public class CubeRotateFinishLayout extends RelativeLayout implements
             @Override
             public void onAnimationEnd(Animator animation) {
                 if (mOnSlidingFinishListener != null && isFinish) {
+                    setBackgroundResource(R.color.transparent);
                     mOnSlidingFinishListener.onSlidingFinish();
                 }
+                mIsSliding = false;
             }
 
             @Override
             public void onAnimationCancel(Animator animation) {
+                mIsSliding = false;
             }
 
             @Override
@@ -194,10 +194,12 @@ public class CubeRotateFinishLayout extends RelativeLayout implements
             @Override
             public void onAnimationEnd(Animator animation) {
                 setBackgroundColor(Color.WHITE);
+                mIsSliding = false;
             }
 
             @Override
             public void onAnimationCancel(Animator animation) {
+                mIsSliding = false;
             }
 
             @Override
@@ -276,7 +278,6 @@ public class CubeRotateFinishLayout extends RelativeLayout implements
                     }
                     break;
                 case MotionEvent.ACTION_UP:
-                    mIsSliding = false;
                     if (mInterpolate >= 0.5f) {
                         isFinish = true;
                         scrollRight();
@@ -344,7 +345,7 @@ public class CubeRotateFinishLayout extends RelativeLayout implements
         }
 
         ///////
-        if (mIsShowCubePrevView && mLeftView != null) {
+        if (mLeftView != null) {
             float preRotate = (-90 + 90 * interpolatedTime);
             mCamera.save();
             mCamera.translate((interpolatedTime * width), 0, 0);

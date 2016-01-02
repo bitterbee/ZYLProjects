@@ -67,6 +67,7 @@ public class RotateFinishActivity extends AppCompatActivity
 
     @Override
     public void onSlidingFinish() {
+        getWindow().getDecorView().setAlpha(0);
         finish();
         overridePendingTransition(R.anim.anim_fade_in, R.anim.anim_fade_out);
     }
