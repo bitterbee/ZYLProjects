@@ -13,13 +13,21 @@
         android:background="@color/transparent">
 
         <ImageView
+            android:id="@+id/left_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/right_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
             android:src="@mipmap/finish_effect_2" />
 
     </cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.CubeRotateFinishLayout>
-    >
+
 
     <View
         android:id="@+id/touchview"
