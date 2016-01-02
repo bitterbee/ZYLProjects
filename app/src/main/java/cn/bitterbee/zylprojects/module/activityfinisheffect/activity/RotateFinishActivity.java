@@ -11,8 +11,8 @@ import android.view.ViewGroup;
 import java.util.WeakHashMap;
 
 import cn.bitterbee.zylprojects.R;
-import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.CubeRotateFinishLayout;
-import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.OnSlidingFinishListener;
+import cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout.CubeRotateFinishLayout;
+import cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout.OnSlidingFinishListener;
 
 /**
  * Created by zyl06 on 1/1/16.

@@ -6,7 +6,7 @@
     android:background="@color/transparent"
     android:fitsSystemWindows="true">
 
-    <cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.SlidingFinishLayout
+    <cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout.SlidingFinishLayout
         android:id="@+id/content_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,7 +18,7 @@
             android:scaleType="fitXY"
             android:src="@mipmap/finish_effect_1" />
 
-    </cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.SlidingFinishLayout>
+    </cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout.SlidingFinishLayout>
 
     <View
         android:id="@+id/touchview"

@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import cn.bitterbee.zylprojects.R;
-import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.OnSlidingFinishListener;
-import cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout.SlidingFinishLayout;
+import cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout.OnSlidingFinishListener;
+import cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout.SlidingFinishLayout;
 
 /**
  * Created by zyl06 on 1/1/16.

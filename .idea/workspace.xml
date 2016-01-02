@@ -10,15 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222cf6f2-4556-4b04-88f1-bd3bdefe7f85" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/CubeRotateFinishLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/OnSlidingFinishListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/OnSlidingFinishListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/SlidingFinishLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/SlidingFinishLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/SlideFinsihActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/SlideFinsihActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_rotate.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_rotate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_slide.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_slide.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ZYLProjects.iws" />
@@ -63,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SlideFinsihActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SlideFinsihActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/SlideFinsihActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="1.0479041">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RotateFinishActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RotateFinishActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64978904">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.333333">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,22 +145,22 @@
         </entry>
       </file>
       <file leaf-file-name="CubeRotateFinishLayout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/CubeRotateFinishLayout.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#4447#4448#0" expanded="true" />
-                <element signature="e#4497#4498#0" expanded="true" />
-                <element signature="e#4647#4926#0" expanded="true" />
-                <element signature="e#4925#4926#0" expanded="true" />
-                <element signature="e#5622#5623#0" expanded="true" />
-                <element signature="e#5672#5673#0" expanded="true" />
-                <element signature="e#9755#9756#0" expanded="true" />
-                <element signature="e#9794#9795#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+                <element signature="e#1948#1949#0" expanded="true" />
+                <element signature="e#4443#4444#0" expanded="true" />
+                <element signature="e#4493#4494#0" expanded="true" />
+                <element signature="e#4643#4922#0" expanded="true" />
+                <element signature="e#4921#4922#0" expanded="true" />
+                <element signature="e#5618#5619#0" expanded="true" />
+                <element signature="e#5668#5669#0" expanded="true" />
+                <element signature="e#9751#9752#0" expanded="true" />
+                <element signature="e#9790#9791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2025,7 +2027,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
+              <option name="myItemId" value="activityfinisheffect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finishlayout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2063,11 +2069,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
+              <option name="myItemId" value="activityfinisheffect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="finishlayout" />
+              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2136,6 +2142,11 @@
     <property name="DEBUGGABLE_PROCESS" value="cn.bitterbee.zylprojects" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OpenSources/AndroidCubeDemo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.bitterbee.zylprojects.module.activityfinisheffect.view" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2326,7 +2337,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3320659" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2341,7 +2352,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2447,14 +2458,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/SlidingFinishLayout.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/SlidingFinishLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="204" column="59" selection-start-line="204" selection-start-column="53" selection-end-line="204" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3379#3380#0" expanded="true" />
+            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="e#3375#3376#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2626,7 +2637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/OnSlidingFinishListener.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/OnSlidingFinishListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -2634,14 +2645,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/SlidingFinishLayout.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/SlidingFinishLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="41" selection-start-line="132" selection-start-column="41" selection-end-line="132" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3379#3380#0" expanded="true" />
+            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="e#3375#3376#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2689,16 +2700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/SlideFinsihActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/finish_effect_activity_main.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2718,26 +2719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/finishlayout/CubeRotateFinishLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#4447#4448#0" expanded="true" />
-            <element signature="e#4497#4498#0" expanded="true" />
-            <element signature="e#4647#4926#0" expanded="true" />
-            <element signature="e#4925#4926#0" expanded="true" />
-            <element signature="e#5622#5623#0" expanded="true" />
-            <element signature="e#5672#5673#0" expanded="true" />
-            <element signature="e#9755#9756#0" expanded="true" />
-            <element signature="e#9794#9795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/FinishEffectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2748,10 +2729,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/view/finishlayout/CubeRotateFinishLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#4443#4444#0" expanded="true" />
+            <element signature="e#4493#4494#0" expanded="true" />
+            <element signature="e#4643#4922#0" expanded="true" />
+            <element signature="e#4921#4922#0" expanded="true" />
+            <element signature="e#5618#5619#0" expanded="true" />
+            <element signature="e#5668#5669#0" expanded="true" />
+            <element signature="e#9751#9752#0" expanded="true" />
+            <element signature="e#9790#9791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/RotateFinishActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64978904">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.333333">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/cn/bitterbee/zylprojects/module/activityfinisheffect/activity/SlideFinsihActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0479041">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

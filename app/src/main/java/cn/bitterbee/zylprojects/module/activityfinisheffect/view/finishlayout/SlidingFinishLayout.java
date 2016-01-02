@@ -1,4 +1,4 @@
-package cn.bitterbee.zylprojects.module.activityfinisheffect.activity.finishlayout;
+package cn.bitterbee.zylprojects.module.activityfinisheffect.view.finishlayout;
 
 import android.content.Context;
 import android.util.AttributeSet;
