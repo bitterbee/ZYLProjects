@@ -12,11 +12,11 @@ import cn.bitterbee.zylprojects.module.mainpage.viewholder.ItemViewHolder;
 /**
  * Created by zyl06 on 1/1/16.
  */
-public class ItemsAdapter extends RecyclerView.Adapter<ItemViewHolder> {
+public class MainItemsAdapter extends RecyclerView.Adapter<ItemViewHolder> {
 
     private ItemModel[] mModels;
 
-    public ItemsAdapter(ItemModel[] itemModels) {
+    public MainItemsAdapter(ItemModel[] itemModels) {
         mModels = itemModels;
     }
 

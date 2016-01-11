@@ -12,7 +12,7 @@ import cn.bitterbee.zylprojects.module.imageprocess.ImageProcessActivity;
 import cn.bitterbee.zylprojects.module.mainpage.viewholder.DividerItemDecoration;
 import cn.bitterbee.zylprojects.module.mainpage.viewholder.ItemModel;
 
-import cn.bitterbee.zylprojects.module.mainpage.adapter.ItemsAdapter;
+import cn.bitterbee.zylprojects.module.mainpage.adapter.MainItemsAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         mRvItems.addItemDecoration(new DividerItemDecoration(this, LinearLayoutManager.VERTICAL));
         mRvItems.setLayoutManager(lm);
 
-        ItemsAdapter adapter = new ItemsAdapter(sItemModels);
+        MainItemsAdapter adapter = new MainItemsAdapter(sItemModels);
         mRvItems.setAdapter(adapter);
     }
 }
